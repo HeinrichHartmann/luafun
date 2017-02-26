@@ -1,5 +1,5 @@
 package = "hfun"
-version = "0.2.1-1"
+version = "0.2.1-2"
 source = {
    url = "git+https://github.com/HeinrichHartmann/luafun.git",
    tag = "0.2.1"
