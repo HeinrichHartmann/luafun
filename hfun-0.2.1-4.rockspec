@@ -1,8 +1,7 @@
 package = "hfun"
-version = "0.2.1-4"
+version = "master-1"
 source = {
    url = "git://github.com/HeinrichHartmann/luahfun.git",
-   tag = "0.2.1"
 }
 description = {
    summary = "Fork of https://luafun.github.io/",

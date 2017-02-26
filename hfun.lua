@@ -150,6 +150,11 @@ local iter = function(obj, param, state)
 end
 exports.iter = iter
 
+local fiter = function(f)
+  return function() local val = f() return val, val end
+end
+exports.fiter = fiter
+  
 local method0 = function(fun)
     return function(self)
         return fun(self.gen, self.param, self.state)
